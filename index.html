@@ -1,4 +1,3 @@
-
 <html lang="en">
 
 <head>
@@ -34,61 +33,88 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
 
- <!-- CSS BOOTSTRAP-->
- <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- CSS BOOTSTRAP-->
+    <link rel="stylesheet" href="css/bootstrap.css">
 
 </head>
 
 <body>
 
-     <!-- NAVBAR -->
-     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-        <!--LOGO ES MI HOME-->
-
-        <a id="nav" class="navbar-brand" href="index.html"><img src="public/logo negro.png" id="logo"
-                alt="logo de patrimonio"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
 
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link active" href="#nosotros">Nosotros</a>
-                <a class="nav-link active" href="#productos">Productos</a>
-                <a class="nav-link active" href="pages/menu.html">Menú</a>
-                <a class="nav-link active" href="pages/eventos.html">Eventos</a>
-                <a class="nav-link active" href="#contactos">Contacto</a>
+    <header class="header-principal">
+        
+
+        <div class="pagina-principal">
+            <img src="public/header-max1.jpg" class="imagen-header" alt="imagen vertical para header de media-max">
+
+            <div class="nav-principal">
+                <!-- NAVBAR -->
+                <nav class="navbar navbar-expand-lg navbar-light">
+    
+                    <!--LOGO ES MI HOME-->
+    
+                    <a id="nav" class="navbar-brand" href="index.html"><img src="public/logo negro.png"
+                            class="logo-principal" alt="logo de patrimonio"></a>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+    
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" href="#nosotros">Nosotros</a>
+                            <a class="nav-link active" href="#productos">Productos</a>
+                            <a class="nav-link active" href="pages/menu.html">Menú</a>
+                            <a class="nav-link active" href="pages/eventos.html">Eventos</a>
+                            <a class="nav-link active" href="#contactos">Contacto</a>
+                        </div>
+                    </div>
+    
+                </nav>
+    
             </div>
+    
+    
+    
+            <div class="bienvenida">
+    
+                <h1 class="texto-bienvenida">Bienvenidos a Patrimonio Café</h1>
+    
+                <!-- BOTON -->
+                <a href="pages/eventos.html" class="btn btn-primary boton">Conocé nuestra casa</a>
+    
+                <div class="d-grid gap-2 d-md-block">
+                </div>
+    
+            </div>
+    
+    
+    
+
         </div>
 
-    </nav>
+       
 
-    <header class="pagina-principal">
-        <div class="bienvenida">
-
-            <h1>Bienvenidos a Patrimonio Café</h1>
-            <!-- BOTON -->
-           
-        </div>
 
     </header>
-    
+
     <main class="p-5">
 
         <section class="container section-principal" id="nosotros">
 
             <div id="nosotros" class="row">
 
-                <div class="col-md-7">
+                <div class="col-md-7 section-multimedia">
 
                     <img src="public/nosotros/patri1-03.jpg" class="img-nosotros" alt="imagen de tres personas">
 
                 </div>
 
-                <div class="col-md-5 textos-">
+                <div class="col-lg-5 textos-">
 
                     <h2>Nosotros</h2>
 
@@ -96,8 +122,8 @@
                         transmitirte la
                         calidez, el comfort y la pasión que es para nosotros el mundo del café de especialidad y la
                         gastronomía local.</p>
-                        <p></p>
-                        <p class="p-importante"> Esta es la herencia que nos une. Sumate.</p>
+                    <p></p>
+                    <p class="p-importante"> Esta es la herencia que nos une. Sumate.</p>
 
                 </div>
 
@@ -112,33 +138,42 @@
 
                     <div>
 
-                        <div class="card lg">
+                        <div class="card lg section-multimedia">
+
                             <img src="public/eventos/1.jpg" class="card-img-top" alt="carta de halloween">
+
                             <div class="card-body">
+
                                 <h5 class="card-title">HALLOWEEN</h5>
                                 <p class="card-text">Conocé más de la experiencia Patrimonio en nuestra casa de más de
                                     110 años!</p>
                                 <a href="pages/eventos.html#halloween" class="btn btn-primary boton">Ir al evento</a>
+
                             </div>
                         </div>
 
                     </div>
 
                     <div>
-                        <div class="card lg">
+                        <div class="card lg section-multimedia">
+
                             <img src="public/eventos/2.jpg" class="card-img-top" alt="carta dia del patrimonio">
+
                             <div class="card-body">
+
                                 <h5 class="card-title">PATRIMONIO</h5>
                                 <p class="card-text">Conocé más de la experiencia Patrimonio en nuestra casa de más de
                                     110 años!</p>
                                 <a href="pages/eventos.html" class="btn btn-primary boton">Ir al evento</a>
+
                             </div>
+
                         </div>
                     </div>
 
                 </div>
 
-                <div class="col-lg-5 textos- d-flex flex-column align-items-center justify-content-center">
+                <div class="col-lg-5 textos-eventos">
 
                     <h2>Vivi la experiencia
                         Patrimonio</h2>
@@ -155,9 +190,109 @@
             </div>
         </section>
 
+        <section class="container section-principal">
+
+            <div id="productos" class="row">
+
+                <div class="col-lg-7">
+
+                    <div class="section-productos-imagenes section-multimedia">
+                        <img src="public/productos/1.jpg" class="img-productos" alt="mocca">
+                        <img src="public/productos/2.jpg" class="img-productos" alt="caffe">
+                    </div>
+
+                </div>
+
+                <div class="col-lg-5 textos-">
+
+                    <h2>Café de especialidad</h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis non corrupti minima,
+                        officiis
+                        rem ratione illo voluptates ipsa atque, nemo delectus vel maxime beatae. Reprehenderit quos
+                        architecto qui voluptas earum.</p>
+
+                    <!-- BOTON -->
+
+                    <a href="pages/eventos.html" class="btn btn-primary boton">Conoce nuestros productos</a>
+                    <div class="d-grid gap-2 d-md-block">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
 
 
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="logo-footer" id="contactos">
+
+            <a href="#nav"> <img src="public/logo negro.png" class="logo-principal" alt="logo de patrimonio"></a>
+
+        </div>
+
+        <div class="nosotros-footer">
+            <a href=" #nosotros">Nosotros</a>
+            <p>Historia</p>
+            <p>Fundadores</p>
+        </div>
+
+        <div class="productos-footer">
+            <a href=" #productos">Productos</a>
+            <p>Café & no café</p>
+            <p>Platos principales & bocados</p>
+        </div>
+
+        <!-- CONTACTO -->
+        <div class="direccion-footer">
+            <h5>Encontranos en:</h5>
+            <p> Juan Paullier 1294, Montevideo, Uruguay</p>
+
+        </div>
+        <div class="horario-footer">
+            <h5>Horarios:</h5>
+            <p class="p-importante">Lunes a Viernes:<p>
+                    <p> De 9:00 a 21:00hs</p>
+                    <p class="p-importante">Sabados y Domingos:</p>
+                    <p>De 11:00 a 21:00hs</p>
+        </div>
+
+        <div class="eventos-footer">
+            <a href="pages/eventos.html">Eventos</a>
+            <p>Halloween</p>
+            <p>Día del Patrimonio</p>
+        </div>
+
+        <div class="menu-footer">
+            <a href="pages/menu.html">Menú</a>
+            <p>Conocé nuestros platos</p>
+            <p>Reserva tu mesa</p>
+        </div>
+
+        <div class="redes-footer">
+
+            <div class="redes">
+                <a href="https://instagram.com/patrimoniocafe?utm_medium=copy_link" target="_blank"> <img
+                        src="public/insta.jpg" class="iconos-redes" alt="imagen de insta">
+                </a>
+
+                <a href="https://www.facebook.com/patricafe/" target="_blank"> <img src="public/fb.jpg"
+                        class="iconos-redes" alt="imagen de facebook">
+                </a>
+
+                <a href="https://wa.me/59899941294" target="_blank"> <img src="public/wpp.jpg" class="iconos-redes"
+                        alt="imagen de wpp"></a>
+
+            </div>
+
+        </div>
+
+    </footer>
 
 
 
@@ -180,6 +315,8 @@
 
 
 
-<!-- JS BOOTSTRAP-->
+
+
+    <!-- JS BOOTSTRAP-->
     <script src="js/bootstrap.js"></script>
 </body>

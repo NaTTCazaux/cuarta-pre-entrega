@@ -7827,38 +7827,159 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-#logo {
-  width: 87px;
-  margin-left: 33px; }
+@media (max-width: 575.98px) {
+  .logo-principal {
+    width: 35px;
+    margin-left: 33px; }
+  .pagina-principal {
+    display: grid;
+    grid-template-areas: "imagen-header nav-principal" "imagen-header bienvenida"; }
+    .pagina-principal .imagen-header {
+      grid-area: imagen-header;
+      max-width: 370%; }
+      .pagina-principal .imagen-header .nav-principal {
+        grid-area: nav-principal; }
+        .pagina-principal .imagen-header .nav-principal .navbar {
+          position: relative;
+          display: flex;
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem; }
+      .pagina-principal .imagen-header .bienvenida {
+        grid-area: bienvenida;
+        display: flex;
+        flex-direction: column; }
+  .section-principal {
+    margin-top: 10px; }
+    .section-principal .section-multimedia {
+      margin-bottom: 40px; }
+      .section-principal .section-multimedia .img-productos {
+        max-width: 50%;
+        height: auto;
+        border-radius: 10px;
+        padding: 2px; }
+      .section-principal .section-multimedia .card-text {
+        display: none; }
+  footer {
+    background-color: #e3ddd53d;
+    max-width: 100%;
+    display: grid;
+    grid-template-areas: "logo-footer redes-footer" "productos-footer direccion-footer" "eventos-footer horario-footer" "menu-footer nosotros-footer";
+    margin-top: 50px; }
+    footer .logo-footer {
+      grid-area: logo-footer; }
+      footer .logo-footer .logo-principal {
+        width: 35px;
+        margin-left: 33px; }
+    footer .redes-footer {
+      grid-area: redes-footer; }
+    footer .direccion-footer {
+      grid-area: direccion-footer; }
+    footer .horario-footer {
+      grid-area: horario-footer; }
+    footer .iconos-redes {
+      width: 18px; } }
 
-.pagina-principal {
-  background-image: url("../public/header-cambio.jpg");
-  background-repeat: no-repeat;
-  background-size: 100vw;
-  height: 65vw;
-  display: flex;
-  align-content: center;
-  align-items: center;
-  justify-content: center; }
+@media (min-width: 575.98px) {
+  .pagina-principal {
+    background-image: url("../public/header-min.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 65vw;
+    display: grid;
+    grid-template-areas: "nav-principal nav-principal" "bienvenida bienvenida"; }
+    .pagina-principal .imagen-header {
+      display: none; }
+    .pagina-principal .nav-principal {
+      grid-area: nav-principal; }
+    .pagina-principal .bienvenida {
+      grid-area: bienvenida;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 473px; }
+      .pagina-principal .bienvenida .texto-bienvenida {
+        padding: 10px; }
+  .logo-principal {
+    width: 87px;
+    margin-left: 33px; }
+  /* FOOTER */
+  footer {
+    background-color: #e3ddd53d;
+    max-width: 100%;
+    display: grid;
+    grid-template-areas: "logo-footer nosotros-footer productos-footer direccion-footer" "redes-footer eventos-footer menu-footer horario-footer";
+    margin-top: 50px; }
+    footer a {
+      font-family: 'Krona One', sans-serif;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 15px;
+      color: #204a4a;
+      margin-top: 15px; }
+    footer div p {
+      font-family: 'Rubik', sans-serif;
+      text-decoration: none;
+      color: black;
+      margin-top: 15px; }
+    footer h5, footer .h5 {
+      font-family: 'Krona One', sans-serif;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+      color: #204a4a;
+      margin-top: 15px; }
+    footer .logo-footer {
+      grid-area: logo-footer; }
+    footer .nosotros-footer {
+      grid-area: nosotros-footer; }
+    footer .productos-footer {
+      grid-area: productos-footer; }
+    footer .redes-footer {
+      grid-area: redes-footer; }
+    footer .eventos-footer {
+      grid-area: eventos-footer; }
+    footer .menu-footer {
+      grid-area: menu-footer; }
+    footer .direccion-footer {
+      grid-area: direccion-footer;
+      margin-top: -11px; }
+    footer .horario-footer {
+      grid-area: horario-footer;
+      margin-top: -13px; }
+    footer footer div {
+      padding: 20px; }
+    footer .iconos-redes {
+      width: 26px; } }
 
 .section-principal {
-  margin-top: 100px; }
+  margin-top: 50px; }
   .section-principal .img-nosotros {
     max-width: 100%;
+    border-radius: 10px; }
+  .section-principal .img-productos {
+    max-width: 40%;
+    height: auto;
     border-radius: 10px; }
   .section-principal .textos- {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center; }
+  .section-principal .textos-eventos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
   .section-principal .p-importante {
     font-weight: bold; }
   .section-principal .principal-cards {
     display: flex;
     justify-content: space-around; }
-
-@media (max-width: 575.98px) {
-  .section-principal {
-    margin-top: 10px; }
-    .section-principal .card-text {
-      display: none; } }
+  .section-principal .section-productos {
+    display: flex;
+    flex-direction: column;
+    justify-content: start; }
+  .section-principal .section-productos-imagenes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }

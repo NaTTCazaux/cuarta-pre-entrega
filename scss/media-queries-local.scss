@@ -1,9 +1,233 @@
-@media (max-width: 575.98px){
-    .section-principal{
+@media (max-width: 575.98px) {
+
+    .logo-principal {
+        width: 35px;
+        margin-left: 33px;
+    }
+
+    .pagina-principal {
+        // background-image: url("../public/header-max.jpg");
+        // background-repeat: no-repeat;
+        // background-size: 100vw;
+        display: grid;
+        grid-template-areas: "imagen-header nav-principal"
+            "imagen-header bienvenida";
+
+
+
+        .imagen-header {
+            grid-area: imagen-header;
+            max-width: 370%;
+
+
+            .nav-principal {
+                grid-area: nav-principal;
+
+                .navbar {
+                    position: relative;
+                    display: flex;
+                    padding-top: 0.5rem;
+                    padding-bottom: 0.5rem;
+                }
+                
+            }
+
+            .bienvenida {
+                grid-area: bienvenida;
+                display: flex;
+                flex-direction: column;
+            }
+
+        }
+
+    }
+
+
+
+
+    .section-principal {
         margin-top: 10px;
 
-        .card-text{
+        .section-multimedia {
+            margin-bottom: 40px;
+
+            .img-productos {
+                max-width: 50%;
+                height: auto;
+                border-radius: 10px;
+                padding: 2px;
+            }
+
+            .card-text {
+                display: none;
+            }
+        }
+
+
+    }
+
+    footer {
+        background-color: #e3ddd53d;
+        max-width: 100%;
+        display: grid;
+        grid-template-areas:
+            "logo-footer redes-footer"
+            "productos-footer direccion-footer"
+            "eventos-footer horario-footer"
+            "menu-footer nosotros-footer";
+        margin-top: 50px;
+
+        .logo-footer {
+            grid-area: logo-footer;
+
+            .logo-principal {
+                width: 35px;
+                margin-left: 33px;
+            }
+        }
+
+        .redes-footer {
+            grid-area: redes-footer;
+        }
+
+        .direccion-footer {
+            grid-area: direccion-footer;
+        }
+
+        .horario-footer {
+            grid-area: horario-footer;
+        }
+
+        .iconos-redes {
+            width: 18px;
+        }
+    }
+
+
+
+
+}
+
+@media (min-width: 575.98px) {
+
+    .pagina-principal {
+        background-image: url("../public/header-min.jpg");
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        height: 65vw;
+        display: grid;
+        grid-template-areas: "nav-principal nav-principal"
+            "bienvenida bienvenida";
+
+        .imagen-header {
             display: none;
         }
+
+
+        .nav-principal {
+            grid-area: nav-principal;
+        }
+
+        .bienvenida {
+            grid-area: bienvenida;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 473px;
+
+            .texto-bienvenida {
+                padding: 10px;
+            }
+
+        }
+    }
+
+    .logo-principal {
+        width: 87px;
+        margin-left: 33px;
+    }
+
+
+
+    /* FOOTER */
+
+    footer {
+        background-color: #e3ddd53d;
+        max-width: 100%;
+
+
+        display: grid;
+        grid-template-areas:
+            "logo-footer nosotros-footer productos-footer direccion-footer"
+            "redes-footer eventos-footer menu-footer horario-footer";
+        margin-top: 50px;
+
+        a {
+            font-family: 'Krona One', sans-serif;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 15px;
+            color: #204a4a;
+            margin-top: 15px;
+        }
+
+        div p {
+            font-family: 'Rubik', sans-serif;
+            text-decoration: none;
+            color: black;
+            margin-top: 15px;
+        }
+
+        h5 {
+            font-family: 'Krona One', sans-serif;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+            color: #204a4a;
+            margin-top: 15px;
+        }
+
+        .logo-footer {
+            grid-area: logo-footer;
+        }
+
+        .nosotros-footer {
+            grid-area: nosotros-footer;
+        }
+
+        .productos-footer {
+            grid-area: productos-footer;
+        }
+
+        .redes-footer {
+            grid-area: redes-footer;
+        }
+
+        .eventos-footer {
+            grid-area: eventos-footer;
+        }
+
+        .menu-footer {
+            grid-area: menu-footer;
+        }
+
+        .direccion-footer {
+            grid-area: direccion-footer;
+            margin-top: -11px;
+        }
+
+        .horario-footer {
+            grid-area: horario-footer;
+            margin-top: -13px;
+        }
+
+        footer div {
+            padding: 20px;
+        }
+
+        .iconos-redes {
+            width: 26px;
+        }
+
     }
 }

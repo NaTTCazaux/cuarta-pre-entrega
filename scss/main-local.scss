@@ -1,8 +1,14 @@
 .section-principal{
-    margin-top: 100px;
+    margin-top: 50px;
 
     .img-nosotros {
         max-width: 100%;
+        border-radius: 10px;
+    }
+
+    .img-productos {
+        max-width: 40%;
+        height: auto;
         border-radius: 10px;
     }
 
@@ -13,6 +19,15 @@
         justify-content: center;
     }
 
+    .textos-eventos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+
     .p-importante{
         font-weight: bold;
     }
@@ -21,6 +36,22 @@
         display: flex;
         justify-content:space-around;
     }
+
+    .section-productos{
+        display: flex;
+        flex-direction: column;
+        justify-content:start;
+
+    }
+
+    .section-productos-imagenes{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+
+    }
+
+
 
 }
 
