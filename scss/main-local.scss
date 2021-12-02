@@ -1,3 +1,4 @@
+// PAGINA PRINCIPAL
 .section-principal{
     margin-top: 50px;
 
@@ -51,7 +52,32 @@
 
     }
 
-
-
 }
+
+
+// PAGINA EVENTOS
+
+.section-paginas{
+    .halloween {
+        display: flex;
+        padding: 40px;
+        align-items: center;
+    }
+    
+    .imagen-halloween {
+        border-radius: 10px;
+    }
+
+    .imagen-patrimonio {
+        border-radius: 10px;
+    }
+
+    .textos-{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+}
+
 

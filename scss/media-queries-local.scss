@@ -1,8 +1,9 @@
 @media (max-width: 575.98px) {
 
     .logo-principal {
-        width: 35px;
-        margin-left: 33px;
+        width: 60px;
+        margin-left: -70px;
+
     }
 
     .pagina-principal {
@@ -22,14 +23,6 @@
 
             .nav-principal {
                 grid-area: nav-principal;
-
-                .navbar {
-                    position: relative;
-                    display: flex;
-                    padding-top: 0.5rem;
-                    padding-bottom: 0.5rem;
-                }
-                
             }
 
             .bienvenida {
@@ -66,6 +59,18 @@
 
     }
 
+     // PAGINAS
+     .section-paginas {
+        
+        .imagen-halloween {
+            width: 50%;
+        }
+    
+        .imagen-patrimonio {
+            width: 70%;
+        }
+    }
+    
     footer {
         background-color: #e3ddd53d;
         max-width: 100%;
@@ -81,8 +86,8 @@
             grid-area: logo-footer;
 
             .logo-principal {
-                width: 35px;
-                margin-left: 33px;
+                width: 60px;
+
             }
         }
 
@@ -147,6 +152,18 @@
         margin-left: 33px;
     }
 
+
+    // PAGINAS
+    .section-paginas {
+
+        .imagen-halloween {
+            width: 50%;
+        }
+    
+        .imagen-patrimonio {
+            width: 70%;
+        }
+    }
 
 
     /* FOOTER */

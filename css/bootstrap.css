@@ -7829,8 +7829,8 @@ textarea.form-control-lg {
 
 @media (max-width: 575.98px) {
   .logo-principal {
-    width: 35px;
-    margin-left: 33px; }
+    width: 60px;
+    margin-left: -70px; }
   .pagina-principal {
     display: grid;
     grid-template-areas: "imagen-header nav-principal" "imagen-header bienvenida"; }
@@ -7839,11 +7839,6 @@ textarea.form-control-lg {
       max-width: 370%; }
       .pagina-principal .imagen-header .nav-principal {
         grid-area: nav-principal; }
-        .pagina-principal .imagen-header .nav-principal .navbar {
-          position: relative;
-          display: flex;
-          padding-top: 0.5rem;
-          padding-bottom: 0.5rem; }
       .pagina-principal .imagen-header .bienvenida {
         grid-area: bienvenida;
         display: flex;
@@ -7859,6 +7854,10 @@ textarea.form-control-lg {
         padding: 2px; }
       .section-principal .section-multimedia .card-text {
         display: none; }
+  .section-paginas .imagen-halloween {
+    width: 50%; }
+  .section-paginas .imagen-patrimonio {
+    width: 70%; }
   footer {
     background-color: #e3ddd53d;
     max-width: 100%;
@@ -7868,8 +7867,7 @@ textarea.form-control-lg {
     footer .logo-footer {
       grid-area: logo-footer; }
       footer .logo-footer .logo-principal {
-        width: 35px;
-        margin-left: 33px; }
+        width: 60px; }
     footer .redes-footer {
       grid-area: redes-footer; }
     footer .direccion-footer {
@@ -7902,6 +7900,10 @@ textarea.form-control-lg {
   .logo-principal {
     width: 87px;
     margin-left: 33px; }
+  .section-paginas .imagen-halloween {
+    width: 50%; }
+  .section-paginas .imagen-patrimonio {
+    width: 70%; }
   /* FOOTER */
   footer {
     background-color: #e3ddd53d;
@@ -7983,3 +7985,20 @@ textarea.form-control-lg {
     display: flex;
     flex-direction: row;
     justify-content: space-around; }
+
+.section-paginas .halloween {
+  display: flex;
+  padding: 40px;
+  align-items: center; }
+
+.section-paginas .imagen-halloween {
+  border-radius: 10px; }
+
+.section-paginas .imagen-patrimonio {
+  border-radius: 10px; }
+
+.section-paginas .textos- {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center; }
