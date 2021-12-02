@@ -145,6 +145,7 @@
 .card-img,
 .card-img-top {
   @include border-top-radius($card-inner-border-radius);
+  padding: 14px;
 }
 
 .card-img,

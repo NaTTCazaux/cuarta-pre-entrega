@@ -1,0 +1,26 @@
+.section-principal{
+    margin-top: 100px;
+
+    .img-nosotros {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    .textos-{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .p-importante{
+        font-weight: bold;
+    }
+
+    .principal-cards{
+        display: flex;
+        justify-content:space-around;
+    }
+
+}
+
