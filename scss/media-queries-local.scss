@@ -2,36 +2,36 @@
 
     .logo-principal {
         width: 60px;
-        margin-left: -70px;
+        margin-left: 10px;
 
     }
 
     .pagina-principal {
-        // background-image: url("../public/header-max.jpg");
-        // background-repeat: no-repeat;
-        // background-size: 100vw;
+        background-image: url("../public/header-max1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
         display: grid;
-        grid-template-areas: "imagen-header nav-principal"
-            "imagen-header bienvenida";
-
-
-
-        .imagen-header {
-            grid-area: imagen-header;
-            max-width: 370%;
-
-
-            .nav-principal {
-                grid-area: nav-principal;
-            }
+        
 
             .bienvenida {
-                grid-area: bienvenida;
                 display: flex;
                 flex-direction: column;
+                align-items: center;
+
+                h1 {
+                    font-family: 'Krona One', sans-serif;
+                    font-weight: bold;
+                    font-size: 20px;
+                    color: #204a4a;
+                    margin-top: 0;
+                    margin-left: 51px;
+            
+                }
             }
 
-        }
+        
 
     }
 
@@ -115,6 +115,11 @@
 
 @media (min-width: 575.98px) {
 
+    .logo-principal {
+        width: 87px;
+        margin-left: 33px;
+    }
+    
     .pagina-principal {
         background-image: url("../public/header-min.jpg");
         background-repeat: no-repeat;
@@ -140,6 +145,17 @@
             align-items: center;
             margin-left: 473px;
 
+            h1 {
+                font-family: 'Krona One', sans-serif;
+                font-weight: bold;
+                font-size: 40px;
+                color: #204a4a;
+                margin-left: 80px;
+                margin-top: 112px;
+                padding: 30px;
+        
+            }
+
             .texto-bienvenida {
                 padding: 10px;
             }
@@ -147,10 +163,7 @@
         }
     }
 
-    .logo-principal {
-        width: 87px;
-        margin-left: 33px;
-    }
+   
 
 
     // PAGINAS
