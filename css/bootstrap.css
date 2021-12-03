@@ -3342,7 +3342,7 @@ textarea.form-control-lg {
 .navbar-light .navbar-nav .nav-link.active {
   color: #204a4a;
   font-family: 'Krona One', sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   margin-right: 45px;
   border: solid transparent; }
 
@@ -7520,41 +7520,40 @@ textarea.form-control-lg {
       .pagina-principal .bienvenida h1, .pagina-principal .bienvenida .h1 {
         font-family: 'Krona One', sans-serif;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 25px;
         color: #204a4a;
         margin-top: 0;
-        margin-left: 51px; }
-  .section-principal {
-    margin-top: 10px; }
-    .section-principal .section-multimedia {
-      margin-bottom: 40px; }
-      .section-principal .section-multimedia .img-productos {
-        max-width: 50%;
-        height: auto;
-        border-radius: 10px;
-        padding: 2px; }
-      .section-principal .section-multimedia .card-text {
-        display: none; }
+        margin-left: 25px; }
+  .section-principal .section-multimedia {
+    margin-bottom: 40px; }
+    .section-principal .section-multimedia .img-productos {
+      max-width: 50%;
+      height: auto;
+      border-radius: 10px;
+      padding: 2px; }
+    .section-principal .section-multimedia .card-text {
+      display: none; }
   .section-paginas .imagen-halloween {
     width: 50%; }
   .section-paginas .imagen-patrimonio {
     width: 70%; }
   footer {
-    background-color: #e3ddd53d;
-    max-width: 100%;
     display: grid;
     grid-template-areas: "logo-footer redes-footer" "productos-footer direccion-footer" "eventos-footer horario-footer" "menu-footer nosotros-footer";
     margin-top: 50px; }
     footer .logo-footer {
-      grid-area: logo-footer; }
+      grid-area: logo-footer;
+      margin-top: 18px; }
       footer .logo-footer .logo-principal {
         width: 60px; }
     footer .redes-footer {
       grid-area: redes-footer; }
     footer .direccion-footer {
-      grid-area: direccion-footer; }
+      grid-area: direccion-footer;
+      margin-top: -11px; }
     footer .horario-footer {
-      grid-area: horario-footer; }
+      grid-area: horario-footer;
+      margin-top: -11px; }
     footer .iconos-redes {
       width: 18px; } }
 
@@ -7578,15 +7577,17 @@ textarea.form-control-lg {
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin-left: 473px; }
+      margin-left: 450px; }
       .pagina-principal .bienvenida h1, .pagina-principal .bienvenida .h1 {
         font-family: 'Krona One', sans-serif;
         font-weight: bold;
-        font-size: 40px;
+        font-size: 60px;
         color: #204a4a;
-        margin-left: 80px;
+        margin-left: 220px;
         margin-top: 112px;
         padding: 30px; }
+      .pagina-principal .bienvenida .boton {
+        margin-left: -260px; }
       .pagina-principal .bienvenida .texto-bienvenida {
         padding: 10px; }
   .section-paginas .imagen-halloween {
@@ -7595,38 +7596,19 @@ textarea.form-control-lg {
     width: 70%; }
   /* FOOTER */
   footer {
-    background-color: #e3ddd53d;
-    max-width: 100%;
     display: grid;
     grid-template-areas: "logo-footer nosotros-footer productos-footer direccion-footer" "redes-footer eventos-footer menu-footer horario-footer";
     margin-top: 50px; }
-    footer a {
-      font-family: 'Krona One', sans-serif;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 15px;
-      color: #204a4a;
-      margin-top: 15px; }
-    footer div p {
-      font-family: 'Rubik', sans-serif;
-      text-decoration: none;
-      color: black;
-      margin-top: 15px; }
-    footer h5, footer .h5 {
-      font-family: 'Krona One', sans-serif;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 14px;
-      color: #204a4a;
-      margin-top: 15px; }
     footer .logo-footer {
-      grid-area: logo-footer; }
+      grid-area: logo-footer;
+      margin-top: 70px; }
     footer .nosotros-footer {
       grid-area: nosotros-footer; }
     footer .productos-footer {
       grid-area: productos-footer; }
     footer .redes-footer {
-      grid-area: redes-footer; }
+      grid-area: redes-footer;
+      margin-left: 10px; }
     footer .eventos-footer {
       grid-area: eventos-footer; }
     footer .menu-footer {
@@ -7647,8 +7629,14 @@ textarea.form-control-lg {
   font-size: 30px;
   color: #204a4a; }
 
+.p-section {
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  color: black; }
+
 .section-principal {
-  margin-top: 50px; }
+  margin-top: 70px; }
   .section-principal .img-nosotros {
     max-width: 100%;
     border-radius: 10px; }
@@ -7666,6 +7654,10 @@ textarea.form-control-lg {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
+    .section-principal .textos-eventos h2, .section-principal .textos-eventos .h2 {
+      font-family: 'Krona One', sans-serif;
+      font-size: 30px;
+      color: #204a4a; }
   .section-principal .p-importante {
     font-weight: bold; }
   .section-principal .principal-cards {
@@ -7680,19 +7672,46 @@ textarea.form-control-lg {
     flex-direction: row;
     justify-content: space-around; }
 
-.section-paginas .halloween {
-  display: flex;
-  padding: 40px;
-  align-items: center; }
+footer {
+  background-color: #e3ddd53d;
+  max-width: 100%; }
+  footer div {
+    padding: 20px; }
+  footer a {
+    font-family: 'Krona One', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: #204a4a;
+    margin-top: 15px; }
+  footer div p {
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    margin-top: 15px; }
+  footer .p-importante {
+    font-weight: bold; }
+  footer h5, footer .h5 {
+    font-family: 'Krona One', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: #204a4a;
+    margin-top: 15px; }
 
-.section-paginas .imagen-halloween {
-  border-radius: 10px; }
-
-.section-paginas .imagen-patrimonio {
-  border-radius: 10px; }
-
-.section-paginas .textos- {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center; }
+.section-paginas {
+  margin-top: 70px; }
+  .section-paginas .halloween {
+    display: flex;
+    padding: 40px;
+    align-items: center; }
+  .section-paginas .imagen-halloween {
+    border-radius: 10px; }
+  .section-paginas .imagen-patrimonio {
+    border-radius: 10px; }
+  .section-paginas .textos- {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center; }

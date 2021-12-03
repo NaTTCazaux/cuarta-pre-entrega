@@ -1,16 +1,24 @@
 {
-  "name": "cuarta-prentrega",
+  "name": "q",
   "version": "1.0.0",
-  "description": "",
+  "description": "c",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/bootstrap.scss css/bootstrap.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
-    
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaTTCazaux/cuarta-pre-entrega.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NaTTCazaux/cuarta-pre-entrega/issues"
+  },
+  "homepage": "https://github.com/NaTTCazaux/cuarta-pre-entrega#readme",
   "devDependencies": {
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.15"

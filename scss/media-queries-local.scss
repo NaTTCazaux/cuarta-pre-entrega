@@ -23,10 +23,10 @@
                 h1 {
                     font-family: 'Krona One', sans-serif;
                     font-weight: bold;
-                    font-size: 20px;
+                    font-size: 25px;
                     color: #204a4a;
                     margin-top: 0;
-                    margin-left: 51px;
+                    margin-left: 25px;
             
                 }
             }
@@ -39,7 +39,6 @@
 
 
     .section-principal {
-        margin-top: 10px;
 
         .section-multimedia {
             margin-bottom: 40px;
@@ -72,8 +71,7 @@
     }
     
     footer {
-        background-color: #e3ddd53d;
-        max-width: 100%;
+        
         display: grid;
         grid-template-areas:
             "logo-footer redes-footer"
@@ -84,6 +82,7 @@
 
         .logo-footer {
             grid-area: logo-footer;
+            margin-top: 18px;
 
             .logo-principal {
                 width: 60px;
@@ -97,10 +96,12 @@
 
         .direccion-footer {
             grid-area: direccion-footer;
+            margin-top: -11px;
         }
 
         .horario-footer {
             grid-area: horario-footer;
+            margin-top: -11px;
         }
 
         .iconos-redes {
@@ -136,24 +137,41 @@
 
         .nav-principal {
             grid-area: nav-principal;
+
+            
         }
+
+        // .texto-nav{
+        //     transition: 0.1s ease-in-out;
+
+        //     .texto-nav:hover {
+        //         border: solid transparent !important;
+        //         border-radius: 5px !important;
+            
+        //         background-color: #204a4a !important;
+        //         color: white !important;
+        //     }
+        // }
 
         .bienvenida {
             grid-area: bienvenida;
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-left: 473px;
+            margin-left: 450px;
 
             h1 {
                 font-family: 'Krona One', sans-serif;
                 font-weight: bold;
-                font-size: 40px;
+                font-size: 60px;
                 color: #204a4a;
-                margin-left: 80px;
+                margin-left: 220px;
                 margin-top: 112px;
                 padding: 30px;
         
+            }
+            .boton{
+                margin-left: -260px;
             }
 
             .texto-bienvenida {
@@ -182,9 +200,6 @@
     /* FOOTER */
 
     footer {
-        background-color: #e3ddd53d;
-        max-width: 100%;
-
 
         display: grid;
         grid-template-areas:
@@ -192,33 +207,12 @@
             "redes-footer eventos-footer menu-footer horario-footer";
         margin-top: 50px;
 
-        a {
-            font-family: 'Krona One', sans-serif;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 15px;
-            color: #204a4a;
-            margin-top: 15px;
-        }
 
-        div p {
-            font-family: 'Rubik', sans-serif;
-            text-decoration: none;
-            color: black;
-            margin-top: 15px;
-        }
-
-        h5 {
-            font-family: 'Krona One', sans-serif;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 14px;
-            color: #204a4a;
-            margin-top: 15px;
-        }
+        
 
         .logo-footer {
             grid-area: logo-footer;
+            margin-top: 70px;
         }
 
         .nosotros-footer {
@@ -231,6 +225,7 @@
 
         .redes-footer {
             grid-area: redes-footer;
+            margin-left: 10px;
         }
 
         .eventos-footer {
