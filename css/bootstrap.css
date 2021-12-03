@@ -7648,12 +7648,14 @@ textarea.form-control-lg {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center; }
+    justify-content: center;
+    margin-top: 40px; }
   .section-principal .textos-eventos {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    margin-top: 40px; }
     .section-principal .textos-eventos h2, .section-principal .textos-eventos .h2 {
       font-family: 'Krona One', sans-serif;
       font-size: 30px;
