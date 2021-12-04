@@ -3,6 +3,7 @@
 
 // PAGINA PRINCIPAL
 
+
 .textos- h2 {
     font-family: $font-T;
     font-size: 30px;
@@ -10,14 +11,14 @@
 }
 
 .p-section {
-    font-family:$font-S;
+    font-family: $font-S;
     text-decoration: none;
     font-size: 20px;
     color: black;
 }
 
 
-.section-principal{
+.section-principal {
     margin-top: 70px;
 
     .img-nosotros {
@@ -31,7 +32,7 @@
         border-radius: 10px;
     }
 
-    .textos-{
+    .textos- {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -39,7 +40,7 @@
         margin-top: 40px;
     }
 
-    .textos-eventos{
+    .textos-eventos {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -53,76 +54,76 @@
         }
     }
 
-    
 
-    .p-importante{
+
+    .p-importante {
         font-weight: bold;
     }
 
-    .principal-cards{
+    .principal-cards {
         display: flex;
-        justify-content:space-around;
+        justify-content: space-around;
     }
 
-    .section-productos{
+    .section-productos {
         display: flex;
         flex-direction: column;
-        justify-content:start;
+        justify-content: start;
 
     }
 
-    .section-productos-imagenes{
+    .section-productos-imagenes {
         display: flex;
         flex-direction: row;
-        justify-content:space-around;
+        justify-content: space-around;
 
     }
 
 }
 
-footer{
+footer {
     background-color: #e3ddd53d;
-        max-width: 100%;
+    max-width: 100%;
 
-        div{
-            padding: 20px;
-        }
+    div {
+        padding: 20px;
+    }
 
-        a {
-            font-family: $font-T;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 12px;
-            color: $color-t;
-            margin-top: 15px;
-        }
+    a {
+        font-family: $font-T;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 12px;
+        color: $color-t;
+        margin-top: 15px;
+    }
 
-        div p {
-            font-family: $font-S;
-            text-decoration: none;
-            font-size: 12px;
-            color: black;
-            margin-top: 15px;
-        }
+    div p {
+        font-family: $font-S;
+        text-decoration: none;
+        font-size: 12px;
+        color: black;
+        margin-top: 15px;
+    }
 
-        .p-importante{
-            font-weight: bold;
-        }
+    .p-importante {
+        font-weight: bold;
+    }
 
-        h5 {
-            font-family: $font-T;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 12px;
-            color: $color-t;
-            margin-top: 15px;
-        }
+    h5 {
+        font-family: $font-T;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 12px;
+        color: $color-t;
+        margin-top: 15px;
+    }
 }
 
 
 // PAGINA EVENTOS
 
-.section-paginas{
+.section-paginas {
     margin-top: 70px;
 
     .halloween {
@@ -130,7 +131,7 @@ footer{
         padding: 40px;
         align-items: center;
     }
-    
+
     .imagen-halloween {
         border-radius: 10px;
     }
@@ -139,12 +140,10 @@ footer{
         border-radius: 10px;
     }
 
-    .textos-{
+    .textos- {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
     }
 }
-
-

@@ -3343,7 +3343,6 @@ textarea.form-control-lg {
   color: #204a4a;
   font-family: 'Krona One', sans-serif;
   font-size: 15px;
-  margin-right: 45px;
   border: solid transparent; }
 
 .navbar-light .navbar-toggler {
@@ -7513,6 +7512,10 @@ textarea.form-control-lg {
     background-position: center;
     height: 100vh;
     display: grid; }
+    .pagina-principal .nav-principal .navbar-nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
     .pagina-principal .bienvenida {
       display: flex;
       flex-direction: column;
@@ -7567,7 +7570,7 @@ footer {
     width: 87px;
     margin-left: 33px; }
   .pagina-principal {
-    background-image: url("../public/header-min.jpg");
+    background-image: url("../public/header-min1.png");
     background-repeat: no-repeat;
     background-size: 100vw;
     height: 65vw;
@@ -7581,8 +7584,7 @@ footer {
       grid-area: bienvenida;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      margin-left: 450px; }
+      align-items: center; }
       .pagina-principal .bienvenida .texto-bienvenida-mobil {
         display: none; }
       .pagina-principal .bienvenida h1, .pagina-principal .bienvenida .h1 {
@@ -7590,13 +7592,8 @@ footer {
         font-weight: bold;
         font-size: 60px;
         color: #204a4a;
-        margin-left: 220px;
-        margin-top: 112px;
-        padding: 30px; }
-      .pagina-principal .bienvenida .boton {
-        margin-left: -260px; }
-      .pagina-principal .bienvenida .texto-bienvenida {
-        padding: 10px; }
+        width: 70%;
+        text-align: center; }
   .section-paginas .imagen-halloween {
     width: 50%; }
   .section-paginas .imagen-patrimonio {

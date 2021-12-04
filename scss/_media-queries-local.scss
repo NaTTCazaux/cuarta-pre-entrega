@@ -20,14 +20,21 @@
         height: 100vh;
         display: grid;
 
+        .nav-principal {
+            .navbar-nav {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
 
         .bienvenida {
             display: flex;
             flex-direction: column;
             align-items: center;
 
-            .texto-bienvenida{
-                display:none;
+            .texto-bienvenida {
+                display: none;
             }
 
             h1 {
@@ -118,8 +125,6 @@ footer {
 
 
 
-
-
 // ESCRITORIO
 
 
@@ -131,7 +136,7 @@ footer {
     }
 
     .pagina-principal {
-        background-image: url("../public/header-min.jpg");
+        background-image: url("../public/header-min1.png");
         background-repeat: no-repeat;
         background-size: 100vw;
         height: 65vw;
@@ -146,8 +151,6 @@ footer {
 
         .nav-principal {
             grid-area: nav-principal;
-
-
         }
 
         .bienvenida {
@@ -155,9 +158,9 @@ footer {
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-left: 450px;
 
-            .texto-bienvenida-mobil{
+
+            .texto-bienvenida-mobil {
                 display: none;
             }
 
@@ -166,20 +169,10 @@ footer {
                 font-weight: bold;
                 font-size: 60px;
                 color: $color-t;
-                margin-left: 220px;
-                margin-top: 112px;
-                padding: 30px;
+                width: 70%;
+                text-align: center;
 
             }
-
-            .boton {
-                margin-left: -260px;
-            }
-
-            .texto-bienvenida {
-                padding: 10px;
-            }
-
         }
     }
 
