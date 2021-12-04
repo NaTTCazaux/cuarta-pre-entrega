@@ -3343,7 +3343,8 @@ textarea.form-control-lg {
   color: #204a4a;
   font-family: 'Krona One', sans-serif;
   font-size: 15px;
-  border: solid transparent; }
+  border: solid transparent;
+  margin-right: 40px; }
 
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.55);
