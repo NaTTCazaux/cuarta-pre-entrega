@@ -1,3 +1,9 @@
+@import "../scss/variables-local.scss";
+
+
+// MOBIL
+
+
 @media (max-width: 575.98px) {
 
     .logo-principal {
@@ -13,106 +19,109 @@
         background-position: center;
         height: 100vh;
         display: grid;
-        
 
-            .bienvenida {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
 
-                h1 {
-                    font-family: 'Krona One', sans-serif;
-                    font-weight: bold;
-                    font-size: 22px;
-                    color: #204a4a;
-                    margin-top: 0;
-                    margin-left: 75px;
-            
-                }
+        .bienvenida {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .texto-bienvenida{
+                display:none;
             }
 
-        
-
-    }
-
-
-
-
-    .section-principal {
-
-        .section-multimedia {
-            margin-bottom: 40px;
-
-            .img-productos {
-                max-width: 50%;
-                height: auto;
-                border-radius: 10px;
-                padding: 2px;
-            }
-
-            .card-text {
-                display: none;
+            h1 {
+                font-family: $font-T;
+                font-weight: bold;
+                font-size: 22px;
+                color: $color-t;
+                margin-top: 0;
             }
         }
-
-
     }
+}
 
-     // PAGINAS
-     .section-paginas {
-        
-        .imagen-halloween {
-            width: 50%;
-        }
-    
-        .imagen-patrimonio {
-            width: 70%;
-        }
-    }
-    
-    footer {
-        
-        display: grid;
-        grid-template-areas:
-            "logo-footer redes-footer"
-            "productos-footer direccion-footer"
-            "eventos-footer horario-footer"
-            "menu-footer nosotros-footer";
-        margin-top: 50px;
 
-        .logo-footer {
-            grid-area: logo-footer;
-            margin-top: 18px;
 
-            .logo-principal {
-                width: 60px;
 
-            }
+.section-principal {
+
+    .section-multimedia {
+        margin-bottom: 40px;
+
+        .img-productos {
+            max-width: 50%;
+            height: auto;
+            border-radius: 10px;
+            padding: 2px;
         }
 
-        .redes-footer {
-            grid-area: redes-footer;
-        }
-
-        .direccion-footer {
-            grid-area: direccion-footer;
-            margin-top: -11px;
-        }
-
-        .horario-footer {
-            grid-area: horario-footer;
-            margin-top: -11px;
-        }
-
-        .iconos-redes {
-            width: 18px;
+        .card-text {
+            display: none;
         }
     }
-
-
-
 
 }
+
+// PAGINAS
+.section-paginas {
+
+    .imagen-halloween {
+        width: 50%;
+    }
+
+    .imagen-patrimonio {
+        width: 70%;
+    }
+}
+
+footer {
+
+    display: grid;
+    grid-template-areas:
+        "logo-footer redes-footer"
+        "productos-footer direccion-footer"
+        "eventos-footer horario-footer"
+        "menu-footer nosotros-footer";
+    margin-top: 50px;
+
+    .logo-footer {
+        grid-area: logo-footer;
+        margin-top: 18px;
+
+        .logo-principal {
+            width: 60px;
+
+        }
+    }
+
+    .redes-footer {
+        grid-area: redes-footer;
+    }
+
+    .direccion-footer {
+        grid-area: direccion-footer;
+        margin-top: -11px;
+    }
+
+    .horario-footer {
+        grid-area: horario-footer;
+        margin-top: -11px;
+    }
+
+    .iconos-redes {
+        width: 18px;
+    }
+}
+
+
+
+
+
+
+
+// ESCRITORIO
+
 
 @media (min-width: 575.98px) {
 
@@ -120,7 +129,7 @@
         width: 87px;
         margin-left: 33px;
     }
-    
+
     .pagina-principal {
         background-image: url("../public/header-min.jpg");
         background-repeat: no-repeat;
@@ -138,20 +147,8 @@
         .nav-principal {
             grid-area: nav-principal;
 
-            
+
         }
-
-        // .texto-nav{
-        //     transition: 0.1s ease-in-out;
-
-        //     .texto-nav:hover {
-        //         border: solid transparent !important;
-        //         border-radius: 5px !important;
-            
-        //         background-color: #204a4a !important;
-        //         color: white !important;
-        //     }
-        // }
 
         .bienvenida {
             grid-area: bienvenida;
@@ -160,17 +157,22 @@
             align-items: center;
             margin-left: 450px;
 
+            .texto-bienvenida-mobil{
+                display: none;
+            }
+
             h1 {
-                font-family: 'Krona One', sans-serif;
+                font-family: $font-T;
                 font-weight: bold;
                 font-size: 60px;
-                color: #204a4a;
+                color: $color-t;
                 margin-left: 220px;
                 margin-top: 112px;
                 padding: 30px;
-        
+
             }
-            .boton{
+
+            .boton {
                 margin-left: -260px;
             }
 
@@ -181,7 +183,7 @@
         }
     }
 
-   
+
 
 
     // PAGINAS
@@ -190,7 +192,7 @@
         .imagen-halloween {
             width: 50%;
         }
-    
+
         .imagen-patrimonio {
             width: 70%;
         }
@@ -208,7 +210,7 @@
         margin-top: 50px;
 
 
-        
+
 
         .logo-footer {
             grid-area: logo-footer;

@@ -7517,45 +7517,50 @@ textarea.form-control-lg {
       display: flex;
       flex-direction: column;
       align-items: center; }
+      .pagina-principal .bienvenida .texto-bienvenida {
+        display: none; }
       .pagina-principal .bienvenida h1, .pagina-principal .bienvenida .h1 {
-        font-family: 'Krona One', sans-serif;
+        font-family: "Krona One", sans-serif;
         font-weight: bold;
         font-size: 22px;
         color: #204a4a;
-        margin-top: 0;
-        margin-left: 75px; }
-  .section-principal .section-multimedia {
-    margin-bottom: 40px; }
-    .section-principal .section-multimedia .img-productos {
-      max-width: 50%;
-      height: auto;
-      border-radius: 10px;
-      padding: 2px; }
-    .section-principal .section-multimedia .card-text {
-      display: none; }
-  .section-paginas .imagen-halloween {
-    width: 50%; }
-  .section-paginas .imagen-patrimonio {
-    width: 70%; }
-  footer {
-    display: grid;
-    grid-template-areas: "logo-footer redes-footer" "productos-footer direccion-footer" "eventos-footer horario-footer" "menu-footer nosotros-footer";
-    margin-top: 50px; }
-    footer .logo-footer {
-      grid-area: logo-footer;
-      margin-top: 18px; }
-      footer .logo-footer .logo-principal {
-        width: 60px; }
-    footer .redes-footer {
-      grid-area: redes-footer; }
-    footer .direccion-footer {
-      grid-area: direccion-footer;
-      margin-top: -11px; }
-    footer .horario-footer {
-      grid-area: horario-footer;
-      margin-top: -11px; }
-    footer .iconos-redes {
-      width: 18px; } }
+        margin-top: 0; } }
+
+.section-principal .section-multimedia {
+  margin-bottom: 40px; }
+  .section-principal .section-multimedia .img-productos {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    padding: 2px; }
+  .section-principal .section-multimedia .card-text {
+    display: none; }
+
+.section-paginas .imagen-halloween {
+  width: 50%; }
+
+.section-paginas .imagen-patrimonio {
+  width: 70%; }
+
+footer {
+  display: grid;
+  grid-template-areas: "logo-footer redes-footer" "productos-footer direccion-footer" "eventos-footer horario-footer" "menu-footer nosotros-footer";
+  margin-top: 50px; }
+  footer .logo-footer {
+    grid-area: logo-footer;
+    margin-top: 18px; }
+    footer .logo-footer .logo-principal {
+      width: 60px; }
+  footer .redes-footer {
+    grid-area: redes-footer; }
+  footer .direccion-footer {
+    grid-area: direccion-footer;
+    margin-top: -11px; }
+  footer .horario-footer {
+    grid-area: horario-footer;
+    margin-top: -11px; }
+  footer .iconos-redes {
+    width: 18px; }
 
 @media (min-width: 575.98px) {
   .logo-principal {
@@ -7578,8 +7583,10 @@ textarea.form-control-lg {
       flex-direction: column;
       align-items: center;
       margin-left: 450px; }
+      .pagina-principal .bienvenida .texto-bienvenida-mobil {
+        display: none; }
       .pagina-principal .bienvenida h1, .pagina-principal .bienvenida .h1 {
-        font-family: 'Krona One', sans-serif;
+        font-family: "Krona One", sans-serif;
         font-weight: bold;
         font-size: 60px;
         color: #204a4a;
@@ -7625,12 +7632,12 @@ textarea.form-control-lg {
       width: 26px; } }
 
 .textos- h2, .textos- .h2 {
-  font-family: 'Krona One', sans-serif;
+  font-family: "Krona One", sans-serif;
   font-size: 30px;
   color: #204a4a; }
 
 .p-section {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   text-decoration: none;
   font-size: 20px;
   color: black; }
@@ -7657,7 +7664,7 @@ textarea.form-control-lg {
     justify-content: center;
     margin-top: 40px; }
     .section-principal .textos-eventos h2, .section-principal .textos-eventos .h2 {
-      font-family: 'Krona One', sans-serif;
+      font-family: "Krona One", sans-serif;
       font-size: 30px;
       color: #204a4a; }
   .section-principal .p-importante {
@@ -7680,14 +7687,14 @@ footer {
   footer div {
     padding: 20px; }
   footer a {
-    font-family: 'Krona One', sans-serif;
+    font-family: "Krona One", sans-serif;
     text-decoration: none;
     font-weight: bold;
     font-size: 12px;
     color: #204a4a;
     margin-top: 15px; }
   footer div p {
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
     text-decoration: none;
     font-size: 12px;
     color: black;
@@ -7695,7 +7702,7 @@ footer {
   footer .p-importante {
     font-weight: bold; }
   footer h5, footer .h5 {
-    font-family: 'Krona One', sans-serif;
+    font-family: "Krona One", sans-serif;
     text-decoration: none;
     font-weight: bold;
     font-size: 12px;
